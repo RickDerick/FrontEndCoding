@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#card{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    width: 23%;
+    box-shadow: 0 0 4px black;
+    text-align: center;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+
+}
+.name,.occupation,.impression,.conversion{
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 1rem;
+    font-size: 1rem;
+}
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .avatarLetter {
+    background: #328DD2;
+    color: #FFF;
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 2em;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    border-radius: 2em;
+    float: left;
+  }
